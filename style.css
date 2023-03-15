@@ -7,7 +7,7 @@
 .head{
     background: url(image/bg.jpg);
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 .person_name .main{
     font-size: 35px;
@@ -43,4 +43,176 @@
 }
 .head_header{
     padding:20% 0%;
+}
+/* -----conatct css is here ------------- */
+.contact{
+    background-color: black;
+    position: fixed;
+    top:0px;
+    z-index: 99;
+}
+.contact_kapil{
+    font-size: 40px;
+    font-weight: 700;
+    border: 0px solid red;
+}
+.contact_nav{
+    margin-top: 30px;
+}
+.contact_nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+}
+.contact_nav a:hover{
+    color: white;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+.data_section{
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+}
+.contact_data1 a{
+    font-size: 22px;
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.contact_data2{
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 13px 0px;
+    padding-left: 50px;
+}
+.contact_me p{
+    font-weight: 700;
+    margin-top: 12px;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.contact_address{
+    background: rgba(255, 255, 255, 0.08);
+    border: 0px solid white;
+    border-radius: 8px;
+}
+.my_address{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    margin: 0px 0px 0px 40px;
+}
+.location i{
+    color: #18d26e;
+    font-size: 30px;
+    
+}
+.location{
+    width: 10%;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.for_icon{
+    position: relative;
+}
+.my_address_jodh{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.contact_form{
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0px solid red;
+}
+.input_text{
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+    border: 0px solid red;
+    padding: 10px;
+}
+.btn_message{
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    font-size: 19px;
+}
+.service{
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+.service:hover{
+    background:#04df6a;
+    color: white;
+}
+.serbro i{
+    font-size: 60px;
+    color: #04df6a;
+}
+.serbro i:hover{
+    color: white;
+}
+.sumary{
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.alice{
+    width: 98%;
+    margin: auto;
+    border-left: 1px solid #589373;
+    position: relative;
+}
+.alice_con{
+    color: #04df6a;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.alice_con2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.aliceul ul li{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.alicedot{
+    width: 30px;
+    height: 30px;
+    background: #04df6a;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: -15px;
 }
